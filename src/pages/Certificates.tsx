@@ -16,13 +16,15 @@ export const Certificates = () => {
     date: '2024',
     image: AIStage1,
     url: '#'
-  }, {
+  }, 
+  {
     title: 'AI/ML Engineer Stage 2',
     issuer: 'SLIIT',
     date: '2025',
     image: AIStage2,
     url: '#'
-  }, {
+  }, 
+  {
     title: 'Web Design for Beginners',
     issuer: 'University of Moratuwa',
     date: '2024',
