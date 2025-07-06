@@ -1,5 +1,4 @@
-import React from 'react';
-
+import React, { useState, useEffect } from 'react';
 import { Header } from './pages/Header';
 import { Hero } from './pages/Hero';
 import { About } from './pages/About';
@@ -8,17 +7,46 @@ import { Certificates } from './pages/Certificates';
 import SkillPage from './pages/SkillPage';
 import { Contact } from './pages/Contact';
 import { Footer } from './pages/Footer';
+
 export function App() {
-  return <div className="min-h-screen bg-pink-100">
-      <Header />
+  const [darkMode, setDarkMode] = useState(false);
+
+  useEffect(() => {
+    const savedMode = localStorage.getItem('darkMode');
+    if (savedMode) {
+      setDarkMode(savedMode === 'true');
+    } else {
+      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      setDarkMode(prefersDark);
+    }
+  }, []);
+
+  useEffect(() => {
+    const html = window.document.documentElement;
+    if (darkMode) {
+      html.classList.add('dark');
+    } else {
+      html.classList.remove('dark');
+    }
+    localStorage.setItem('darkMode', darkMode.toString());
+  }, [darkMode]);
+
+  const toggleDarkMode = () => {
+    setDarkMode((prev) => !prev);
+  };
+
+  return (
+    <div className={`min-h-screen bg-pink-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100`}>
+      <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />
         <About />
         <Projects />
         <Certificates />
-        <SkillPage/>
+        <SkillPage />
         <Contact />
       </main>
       <Footer />
-    </div>;
+    </div>
+  );
 }
