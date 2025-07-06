@@ -57,10 +57,10 @@ export const Certificates = () => {
     image: UNICEF,
     url: '#'
   }];
-  return <section id="certificates" className="py-20 bg-white">
+  return <section id="certificates" className="min-h-screen bg-gradient-to-br from-blue-900 to-white p-8">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
-          My <span className="text-blue-600">Certificates</span>
+          My <span className="text-black">Certificates</span>
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {certificates.map((certificate, index) => <div key={index} className="bg-red-100 rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow">

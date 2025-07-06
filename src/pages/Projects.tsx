@@ -23,7 +23,7 @@ export const Projects = () => {
     githubUrl: 'https://github.com/tharushi-dananjana/protfolio.git',
     liveUrl: '#'
   }];
-  return <section id="projects" className="py-20 bg-gray-50">
+  return <section id="projects" className="py-20 bg-red-300">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           My <span className="text-blue-600">Projects</span>

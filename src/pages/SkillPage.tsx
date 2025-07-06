@@ -42,7 +42,7 @@ const skills: Skill[] = [
 
 const SkillPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-white to-blue-950 p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center text-gray-900">My Skills</h1>
 
