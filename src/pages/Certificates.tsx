@@ -30,7 +30,8 @@ export const Certificates = () => {
     date: '2024',
     image: WEB_DESIGN,
     url: '#'
-  },{
+  },
+  {
     title: 'Python for Beginners',
     issuer: 'University of Moratuwa',
     date: '2024',
