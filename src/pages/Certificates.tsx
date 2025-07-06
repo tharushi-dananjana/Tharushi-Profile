@@ -37,7 +37,8 @@ export const Certificates = () => {
     date: '2024',
     image: PYTHON,
     url: '#'
-  },{
+  },
+  {
     title: 'AI For Beginners',
     issuer: 'HP Life',
     date: '2024',
