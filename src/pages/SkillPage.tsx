@@ -2,7 +2,7 @@ import React from 'react';
 
 import javaIcon from '../assets/java.png';
 import HTML from '../assets/Html.png';
-import PYTHON1 from '../assets/about.png';
+import PYTHON from '../assets/python1.png';
 import FLUTTER from '../assets/Flutter.png';
 import KOTLIN from '../assets/Kotlin.png';
 import JAVASCRIPT from '../assets/javascript.png';
@@ -20,7 +20,7 @@ const skills: Skill[] = [
   },
   {
     id: 2,  
-    iconUrl: PYTHON1,
+    iconUrl: PYTHON,
   },
   {
     id: 3,  
