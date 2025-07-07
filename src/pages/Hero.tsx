@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChevronDown, Github, Linkedin, Facebook, Instagram } from 'lucide-react';
 // Optional: Use import instead of relative path
-// import profileImage from './assets/about.png';
+import profileImage from '../assets/about.png';
 
 export const Hero = () => {
   const scrollToAbout = () => {
@@ -14,16 +14,15 @@ export const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 pt-16"
+      className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-white to-indigo-100 pt-16"
     >
       <div className="container mx-auto px-4 text-center">
         {/* Profile Image */}
-        <div className="w-32 h-32 rounded-full mx-auto mb-8 bg-gray-300 overflow-hidden">
-          <img
-            src="./assets/about.png" // or use: src={profileImage}
-            alt="Profile"
-            className="w-full h-full object-cover"
-          />
+        <div className="w-60 h-60 rounded-full mx-auto mb-8 bg-gray-300 overflow-hidden">
+        <img
+          src={profileImage} // Corrected here
+          alt="Profile"
+          className="w-full h-full object-cover"/>
         </div>
 
         {/* Heading */}

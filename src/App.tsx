@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+
 import { Header } from './pages/Header';
 import { Hero } from './pages/Hero';
 import { About } from './pages/About';
@@ -36,7 +37,7 @@ export function App() {
   };
 
   return (
-    <div className={`min-h-screen bg-pink-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100`}>
+    <div className={`min-h-screen bg-white dark:bg-gray-900 text-white dark:text-white`}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />

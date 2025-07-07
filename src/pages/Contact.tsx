@@ -1,9 +1,9 @@
 import React from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 export const Contact = () => {
-  return <section id="contact" className="min-h-screen bg-gradient-to-br from-white to-blue-800 p-8">
+  return <section id="contact" className="min-h-screen bg-gradient-to-br from-gray-400 to-white p-8">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
+        <h2 className="text-3xl md:text-4xl text-black font-bold text-center mb-16">
           Contact <span className="text-black">Me</span>
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
@@ -48,7 +48,8 @@ export const Contact = () => {
             </div>
           </div>
           <div>
-            <form className="bg-white p-6 rounded-lg shadow-sm">
+            
+            <form className="bg-red-400 p-6 rounded-lg shadow-sm">
               <div className="mb-4">
                 <label htmlFor="name" className="block text-sm font-medium text-black mb-1">
                   Name

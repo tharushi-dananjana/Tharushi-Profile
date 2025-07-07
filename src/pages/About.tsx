@@ -1,5 +1,6 @@
 import React from 'react';
 import { Code, Shield, Database, Brain } from 'lucide-react';
+
 export const About = () => {
   return <section id="about" className="py-20 bg-white-800">
       <div className="container mx-auto px-4">
@@ -13,10 +14,12 @@ export const About = () => {
             about technology, software development, cybersecurity, and solving
             real-world problems through innovative IT solutions.
           </p>
+
           <p className="text-lg text-black mb-12">
             I'm continuously learning new skills and staying up-to-date with the
             latest technologies to become a versatile IT professional.
           </p>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-50 p-6 rounded-lg">
               <div className="flex items-center mb-4">
@@ -25,10 +28,12 @@ export const About = () => {
                 </div>
                 <h3 className="text-xl font-semibold">Development</h3>
               </div>
+
               <p className="text-gray-700">
                 Experienced in web and software development using modern
                 technologies and frameworks.
               </p>
+
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <div className="flex items-center mb-4">
@@ -42,6 +47,7 @@ export const About = () => {
                 digital assets.
               </p>
             </div>
+            
             <div className="bg-gray-50 p-6 rounded-lg">
               <div className="flex items-center mb-4">
                 <div className="bg-blue-100 p-3 rounded-full mr-4">

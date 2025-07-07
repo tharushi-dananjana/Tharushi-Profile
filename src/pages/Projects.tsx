@@ -1,11 +1,14 @@
 import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
+import SIMPLE_PORTFOLIO from '../assets/simple-portfolio.png'
+import PORTFOLIO from '../assets/portfolio.png'
+
 export const Projects = () => {
   const projects = [{
     title: 'Boat Safari Management System',
     description: 'Built a face detection-based attendance system to automate class attendance logging.',
-    technologies: ['Python', 'OpenCV', 'SQLite'],
-    image: 'https://images.unsplash.com/photo-1557200134-90327ee9fafa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
+    technologies: ['html', 'css', 'php'],
+    image: SIMPLE_PORTFOLIO,
     githubUrl: 'https://github.com/tharushi-dananjana/IWT-project.git',
     liveUrl: '#'
   }, {
@@ -16,14 +19,14 @@ export const Projects = () => {
     githubUrl: 'https://github.com/tharushi-dananjana/house-design.git',
     liveUrl: '#'
   }, {
-    title: 'Simple Portfolio Website',
+    title: 'React Portfolio Website',
     description: 'Designed and deployed a modern, mobile-responsive personal website.',
-    technologies: ['React.js', 'Tailwind CSS'],
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80',
+    technologies: ['React.js', 'Tailwind CSS , Typescript'],
+    image: PORTFOLIO,
     githubUrl: 'https://github.com/tharushi-dananjana/protfolio.git',
     liveUrl: '#'
   }];
-  return <section id="projects" className="py-20 bg-red-300">
+  return <section id="projects" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           My <span className="text-blue-600">Projects</span>
