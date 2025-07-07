@@ -2,9 +2,10 @@ import React from 'react';
 
 import javaIcon from '../assets/java.png';
 import HTML from '../assets/Html.png';
-import PYTHON1 from '../assets/Python.png';
+import PYTHON1 from '../assets/about.png';
 import FLUTTER from '../assets/Flutter.png';
 import KOTLIN from '../assets/Kotlin.png';
+import JAVASCRIPT from '../assets/about.png';
 
 interface Skill {
   id: number;
@@ -31,7 +32,7 @@ const skills: Skill[] = [
   },
   {
     id: 5,  
-    iconUrl: '/icons/graphql.png',
+    iconUrl: JAVASCRIPT,
   },
   {
   id: 6,
