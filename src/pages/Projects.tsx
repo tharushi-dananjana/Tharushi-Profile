@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
 import SIMPLE_PORTFOLIO from '../assets/simple-portfolio.png'
 import PORTFOLIO from '../assets/portfolio.png'

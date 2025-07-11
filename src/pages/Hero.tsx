@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { ChevronDown, Github, Linkedin, Facebook, Instagram } from 'lucide-react';
 // Optional: Use import instead of relative path
 import profileImage from '../assets/about.png';

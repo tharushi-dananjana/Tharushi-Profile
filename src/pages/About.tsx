@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 import { Code, Shield, Database, Brain } from 'lucide-react';
 
 export const About = () => {

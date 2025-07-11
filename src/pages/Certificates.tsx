@@ -1,4 +1,4 @@
-import React from 'react';
+//import React from 'react';
 
 import { Award, ExternalLink } from 'lucide-react';
 import AIStage1 from '../assets/Stage1.png';
