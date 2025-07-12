@@ -5,7 +5,7 @@ import HTML from '../assets/Html.png';
 import PYTHON from '../assets/python1.png';
 import FLUTTER from '../assets/Flutter.png';
 import KOTLIN from '../assets/Kotlin.png';
-import JAVASCRIPT from '../assets/javascript.png';
+import JAVASCRIPT from '../assets/javaScript.png';
 
 interface Skill {
   id: number;
