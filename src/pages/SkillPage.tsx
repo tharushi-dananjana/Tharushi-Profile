@@ -5,7 +5,7 @@ import HTML from '../assets/Html.png';
 import PYTHON from '../assets/python1.png';
 import FLUTTER from '../assets/Flutter.png';
 import KOTLIN from '../assets/Kotlin.png';
-import JAVASCRIPT from '../assets/javaScript.png';
+import JAVASCRIPT from '../assets/javascript.png';
 
 interface Skill {
   id: number;
@@ -37,7 +37,7 @@ const skills: Skill[] = [
   {
   id: 6,
   iconUrl: javaIcon,
-}
+  }
 
 ];
 
@@ -56,7 +56,7 @@ const SkillPage: React.FC = () => {
               {iconUrl && (
                 <img
                   src={iconUrl}
-                  alt={`${name} icon`}
+                  alt="Skill icon"
                   className="w-25 h-16 mb-4 object-contain"
                   loading="lazy"
                 />
