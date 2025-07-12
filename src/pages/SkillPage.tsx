@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 
 import javaIcon from '../assets/java.png';
 import HTML from '../assets/Html.png';
@@ -69,4 +69,4 @@ const SkillPage: React.FC = () => {
   );
 };
 
-export default SkillPage;
+export default SkillPage;*/
