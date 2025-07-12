@@ -1,6 +1,6 @@
 //import React from 'react';
 
-import { Award, ExternalLink } from 'lucide-react';
+/*import { Award, ExternalLink } from 'lucide-react';
 import AIStage1 from '../assets/stage1.png';
 import AIStage2 from '../assets/stage2.png';
 import WEB_DESIGN from '../assets/webdesign.PNG';
@@ -90,4 +90,4 @@ export const Certificates = () => {
         </div>
       </div>
     </section>;
-};
+};*/
