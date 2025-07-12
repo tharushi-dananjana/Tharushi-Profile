@@ -1,13 +1,13 @@
 //import React from 'react';
 
 import { Award, ExternalLink } from 'lucide-react';
-import AIStage1 from '../assets/Stage1.png';
-import AIStage2 from '../assets/Stage2.png';
-import WEB_DESIGN from '../assets/WebDesign.png';
-import UNICEF from '../assets/Unicef.png';
-import PYTHON from '../assets/Python.png';
-import AI_BEGINNER from '../assets/AI-Beginner.png';
-import DATA_SCIENCE from '../assets/Data-Science.png';
+import AIStage1 from '../assets/Stage1.PNG';
+import AIStage2 from '../assets/Stage2.PNG';
+import WEB_DESIGN from '../assets/WebDesign.PNG';
+import UNICEF from '../assets/Unicef.PNG';
+import PYTHON from '../assets/Python.PNG';
+import AI_BEGINNER from '../assets/AI-Beginner.PNG';
+import DATA_SCIENCE from '../assets/Data-Science.PNG';
 
 export const Certificates = () => {
   const certificates = [{
