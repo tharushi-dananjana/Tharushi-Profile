@@ -1,6 +1,6 @@
 //import React from 'react';
 import { ExternalLink, Github } from 'lucide-react';
-import SIMPLE_PORTFOLIO from '../assets/simple-portfolio.png'
+import SIMPLE_PORTFOLIO from '../assets/simpleportfolio.png'
 import PORTFOLIO from '../assets/portfolio.png'
 import CHANNELLING from '../assets/channelling.png'
 

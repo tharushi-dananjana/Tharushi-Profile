@@ -3,8 +3,8 @@ import React from 'react';
 import javaIcon from '../assets/java.png';
 import HTML from '../assets/Html.png';
 import PYTHON from '../assets/python1.png';
-import FLUTTER from '../assets/Flutter.png';
-import KOTLIN from '../assets/Kotlin.png';
+import FLUTTER from '../assets/flutter.png';
+import KOTLIN from '../assets/kotlin.png';
 import JAVASCRIPT from '../assets/javascript.png';
 
 interface Skill {
