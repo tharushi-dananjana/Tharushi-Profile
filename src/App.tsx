@@ -37,7 +37,7 @@ export function App() {
   };
 
   return (
-    <div className={`min-h-screen bg-white dark:bg-gray-900 text-white dark:text-white`}>
+    <div className={`min-h-screen bg-white dark:bg-gray-500 text-black dark:text-black`}>
       <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main>
         <Hero />

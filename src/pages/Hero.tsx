@@ -14,7 +14,7 @@ export const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-white to-indigo-100 pt-16"
+      className="min-h-screen w-full flex items-center justify-center bg-gradient-to-br from-red-400 to-indigo-100 pt-16"
     >
       <div className="container mx-auto px-4 text-center">
         {/* Profile Image */}

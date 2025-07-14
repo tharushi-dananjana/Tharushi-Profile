@@ -58,7 +58,7 @@ export const Certificates = () => {
     url: '#'
   }];
   return <section id="certificates" className="min-h-screen bg-gradient-to-br 
-  from-gray-600 to-white p-8">
+  from-white to-white p-8">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-16">
           My <span className="text-black">Certificates</span>

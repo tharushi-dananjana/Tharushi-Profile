@@ -1,7 +1,7 @@
 //import React from 'react';
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 export const Contact = () => {
-  return <section id="contact" className="min-h-screen bg-gradient-to-br from-gray-400 to-white p-8">
+  return <section id="contact" className="min-h-screen bg-gradient-to-br from-white to-white p-8">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl text-black font-bold text-center mb-16">
           Contact <span className="text-black">Me</span>
@@ -49,32 +49,32 @@ export const Contact = () => {
           </div>
           <div>
             
-            <form className="bg-red-400 p-6 rounded-lg shadow-sm">
+            <form className="bg-white p-6 rounded-lg shadow-sm">
               <div className="mb-4">
                 <label htmlFor="name" className="block text-sm font-medium text-black mb-1">
                   Name
                 </label>
-                <input type="text" id="name" className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your Name" required />
+                <input type="text" id="name" className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your Name" required />
               </div>
               <div className="mb-4">
                 <label htmlFor="email" className="block text-sm font-medium text-black mb-1">
                   Email
                 </label>
-                <input type="email" id="email" className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="your.email@example.com" required />
+                <input type="email" id="email" className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="your.email@example.com" required />
               </div>
               <div className="mb-4">
                 <label htmlFor="subject" className="block text-sm font-medium text-black mb-1">
                   Subject
                 </label>
-                <input type="text" id="subject" className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Subject" required />
+                <input type="text" id="subject" className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Subject" required />
               </div>
               <div className="mb-6">
                 <label htmlFor="message" className="block text-sm font-medium text-black mb-1">
                   Message
                 </label>
-                <textarea id="message" rows={4} className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your message here..." required></textarea>
+                <textarea id="message" rows={4} className="w-full px-3 py-2 border border-black rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent" placeholder="Your message here..." required></textarea>
               </div>
-              <button type="submit" className="w-full bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors flex items-center justify-center">
+              <button type="submit" className="w-full bg-red-800 text-white py-2 px-4 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors flex items-center justify-center">
                 Send Message <Send size={18} className="ml-2" />
               </button>
             </form>

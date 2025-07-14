@@ -43,7 +43,7 @@ const skills: Skill[] = [
 
 const SkillPage: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-white to-blue-950 p-8">
+    <div className="min-h-screen bg-gradient-to-br from-white to-white p-8">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center text-gray-900">My Skills</h1>
 
@@ -51,7 +51,7 @@ const SkillPage: React.FC = () => {
           {skills.map(({ id, iconUrl }) => (
             <div
               key={id}
-              className="flex flex-col items-center justify-center p-6 bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow"
+              className="flex flex-col items-center justify-center p-6 bg-red-300 rounded-lg shadow-md hover:shadow-xl transition-shadow"
             >
               {iconUrl && (
                 <img
