@@ -37,11 +37,11 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
   return (
     <header
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white dark:bg-gray-900 shadow-md py-2' : 'bg-transparent py-4'
+        isScrolled ? 'bg-red-500 dark:bg-yellow-200 shadow-md py-2' : 'bg-transparent py-4'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-black dark:text-blue-400">
+        <h1 className="text-xl font-bold text-black dark:text-green-500">
           <span className="cursor-pointer" onClick={() => scrollToSection('hero')}>
             T  h  a  r  u  s  h  i
           </span>
@@ -53,7 +53,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
             <button
               key={id}
               onClick={() => scrollToSection(id)}
-              className="text-black-700 dark:text-gray-200 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
+              className="text-black-700 dark:text-black hover:text-green-400 dark:hover:text-gray-700 transition-colors"
             >
               {label}
             </button>
@@ -62,7 +62,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           {/* Dark Mode Toggle */}
           <button
             onClick={toggleDarkMode}
-            className="ml-4 p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            className="ml-4 p-2 rounded-full hover:bg-black dark:hover:bg-gray-700 transition-colors"
             aria-label="Toggle dark mode"
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -74,7 +74,7 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           {/* Dark Mode Toggle */}
           <button
             onClick={toggleDarkMode}
-            className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+            className="p-2 rounded-full hover:bg-black dark:hover:bg-pink-400 transition-colors"
             aria-label="Toggle dark mode"
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
@@ -92,13 +92,13 @@ export const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden bg-blue-200 font-bold dark:bg-white shadow-lg absolute top-full left-0 w-full">
+        <div className="md:hidden bg-white font-bold dark:bg-white shadow-lg absolute top-full left-0 w-full">
           <ul className="flex flex-col py-4">
             {navItems.map(({ id, label }) => (
               <li key={id}>
                 <button
                   onClick={() => scrollToSection(id)}
-                  className="block w-full text-left px-4 py-2 text-black dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+                  className="block w-full text-left px-4 py-2 text-black dark:text-red-900 hover:bg-gray-100 dark:hover:bg-yellow-200 transition-colors"
                 >
                   {label}
                 </button>
