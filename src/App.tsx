@@ -5,7 +5,7 @@ import { Hero } from './pages/Hero';
 import { About } from './pages/About';
 import { Projects } from './pages/Projects';
 import { Certificates } from './pages/Certificates';
-import SkillPage from './pages/SkillPage';
+//import SkillPage from './pages/SkillPage';
 import { Contact } from './pages/Contact';
 import { Footer } from './pages/Footer';
 
@@ -44,7 +44,7 @@ export function App() {
         <About />
         <Projects />
         <Certificates />
-        <SkillPage />
+        {/*<skillPage/> */}
         <Contact />
       </main>
       <Footer />
